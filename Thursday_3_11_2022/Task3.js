@@ -1,4 +1,4 @@
-let a = window.prompt('Enter your mark from')
+let a = window.prompt('Enter your mark ')
 
 if (a<50) {
     document.write('Fail')
