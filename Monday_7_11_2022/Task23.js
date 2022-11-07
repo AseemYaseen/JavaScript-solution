@@ -6,4 +6,4 @@ console.log(x)
 
 }
 
-counter(prompt())
+counter()
