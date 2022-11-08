@@ -1,13 +1,13 @@
-function middleOfArray (array) {
+function middleOfArray (array1) {
 
-     if ( array.length % 2 == 0){
+     if ( array1.length % 2 === 0){
         
-        return array.splice(array.length/2 - 1 , array.length/2 )
+      console.log(array1.splice((array1.length-1)/2 , array1.length/2 ))
       }
       else {
-         return array[Math.floor(array.length/2)]
+         console.log(array1[((array1.length-1)/2)])
      }
     }
-    
-   console.log(middleOfArray(["t","u","x"]));
+middleOfArray([1,4,5])
+middleOfArray(["t","u","g","x"])
     
