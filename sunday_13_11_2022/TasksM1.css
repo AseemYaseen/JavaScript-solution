@@ -1,0 +1,33 @@
+body{
+    height: auto;
+    background-color: purple;
+    
+}
+
+.contanier {
+display:grid;
+grid-template-columns: repeat(9,1fr);
+grid-template-rows: repeat(5,1fr);
+gap: 10px;
+
+
+
+}
+
+.A1 {
+    background-color: orange;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    height: 45px;
+    
+}
+
+
+#A2 {
+    grid-row: 3;
+    grid-column :1 / 9;
+  
+
+}

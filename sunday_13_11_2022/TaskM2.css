@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(36, 36, 160);
+   
+}
+
+.A1 {
+
+    margin: 0 auto;
+    background-color: white;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: auto;
+    
+    
+}
+
+h2 {
+
+    color: grey;
+    text-align: center;
+}
+
+
+.p1{
+    margin-left: 40px;
+}
+
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 30px auto 0px auto;
+}
+
+#name {
+    margin: 10px auto;
+    font-weight: 700;
+}
+
+.home {
+    background-color: lavender;
+
+    
+}
