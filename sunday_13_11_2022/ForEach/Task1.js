@@ -12,5 +12,18 @@
 
 
 function doubleValues(arr){
-    let result = arr.foreach()
- }
+    let result = arr.forEach((item,index) => {
+
+   arr[index] = item*2
+
+        }
+       
+        )
+        return arr
+
+    } console.log(doubleValues([1,2,3]));
+      console.log(doubleValues([5,1,2,3,10]));
+        
+    
+
+

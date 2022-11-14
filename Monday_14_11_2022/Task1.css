@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: rgb(9, 94, 81);
+}
+
+.A1 {
+    display: inline-block;
+    margin: 0px auto;
+    font-size: 25px;
+    color: white;
+}
+
+#butn {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 30px;
+
+}
+
+
+.fname {
+    width: 220px;
+}

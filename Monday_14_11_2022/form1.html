@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task1.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+<form class="A1" name="myForm" action="/action_page.php" method="get">
+    <label  for="fname">First Name :</label><br>
+    <input type="text" onchange="setNamevalue()"class="fname" id="firstName" name="fname"><br><br>
+
+    <label  for="fname">Last Name :</label><br>
+    <input type="text" onchange="setName(value, userName)" class="fname" name="fname"><br><br>
+
+    <label  for="fname">Email :</label><br>
+    <input type="email" onchange="setName(value, userName)" id="theEmail" class="fname" name="fname"><br><br>
+    
+
+    <label  for="fname">Password :</label><br>
+    <input type="password" onchange="setName(value, userName)" id="thePass" class="fname" name="fname"><br><br>
+    
+
+    <label  for="fname">Phone Number :</label><br>
+    <input type="number" onchange="setName(value, userName)" class="fname" name="fname"><br><br>
+
+    <input id="butn" onclick="func()" type="button" value="Submit!" >
+   
+  </form>
+  
+
+
+    <script src="form1.js"></script>
+    
+</body>
+</html>
